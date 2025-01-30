@@ -1,0 +1,56 @@
+** Even just a 2 mmin video has 7k frames !!!!!!!!!! **
+
+Questions to ask a Multi/Vision model to get the appropriate TAGS out of em for our video / asset
+
+Q1. How is the product been used in the video ?   -  TAG 1  , TAG 2, TAG 3, TAG 4
+
+Q2. Any Suggestions you can give to make it better attractive ? -  TAG 1  , TAG 2, TAG 3, TAG 4
+
+Q3. Are there any actions aligned with the audio track ?  TAG 1  , TAG 2, TAG 3, TAG 4
+
+Q4. What is the impact of the actions / usage of the product in the video ?  TAG 1  , TAG 2, TAG 3, TAG 4
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+NOTE: Suppose if the current Vision/Multi models are not good at deriving semantic meaning, Nevertheless the above questions can be further breaken 
+      down into simpler sub questions which will help extract the semantic meaning we are looking for !!!!!!
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Discuss the questions and tags in more detail with PAUL to make a good final list of crucial TAGS. 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+NOW How to extract the above tags from the video  --> 
+
+1. Break the video in two parts -> ACTION  &  NON-ACTION  using computer vision algorithms -> can use Amazon Rekognition Video
+
+2. Feed the ACTION frames into batches to Vision Model and get the TAGS of the above questions. OR ALTERNATIVELY you can create the embeddings for these frames and get the answers by retrieval
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Implementation of 1. (By Computer Vision Algorithms )
+-> Scan through all the frames and differentiate between Forground and Background of the frame.
+   
+
+
+** Check the pricing for Video Tagging using AWS Reckognition + AWS services for the whole pipeline of Video Tagging , Open_AI API, Jina CLIP etc .... ***
+Just a thought -> It would take 119 million tokens if we create embeddings of all the frames of that Breathing Necklace (1:56 min) video !!!!
+Jina CLIP provides 11 billion tokens for 200 Bucks. Which Means we will get embeddings for 100 such videos. 2$ per 2min video
+
+
+
+Audio Embeddings + Image Embeddings
+
+Ask the above questions on these two embeddings and get the answers. 
+
+TO DO -----
+Q1. How to reduce the frame rate to 10 fps. -> Reduce the frame rate + Increase the playback speed.
+
+
+
+A Cost Effective Solution ->
+1. First Reduce the video fps to 10
+2. Increase the playback speed to 2 times 
+3. Extract the total no of frames from the video. The total no. of frames should be reduced by a factor of 10 by then .
+4. Depending on the resolution apply the tiles . 1 tile = 512 X 512 pixles
+5. As the GPT - 4o mini api is 15 Cents per 1M input tokens and 60 Cents per 1M output tokens
+6. So it turns out to be 8 cents per Video per Query which seems to be pretty good not gonna lie .
+

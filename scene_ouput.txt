@@ -1,0 +1,130 @@
+[
+    {
+        "scene": 1,
+        "description": "Close-up of two jars, one containing white tablets and the other brown capsules. A grid with a heart rate line is shown below."
+    },
+    {
+        "scene": 2,
+        "description": "Text '96% of Magnesium Wasted. Fix it!' displayed above brown capsules. The bar chart with declining red bars labeled 'Magnesium.'"
+    },
+    {
+        "scene": 3,
+        "description": "Text '96% of Magnesium Wasted. Fix it!' displayed above yellow gel capsules. The word 'Wasted' displayed below the bar chart."
+    },
+    {
+        "scene": 4,
+        "description": "Text '96% of Magnesium Wasted. Fix it!' displayed above white capsules. The word 'The' shown beneath the bar chart."
+    },
+    {
+        "scene": 5,
+        "description": "A woman appears stressed, touching her temples. The word 'Stress' is displayed at the bottom."
+    },
+    {
+        "scene": 6,
+        "description": "The same woman continues to appear stressed, eyes closed. Text shows 'Magnesium'."
+    },
+    {
+        "scene": 7,
+        "description": "The woman continues to appear stressed but calmer. The word 'Needs' is displayed."
+    },
+    {
+        "scene": 8,
+        "description": "A man looks focused but stressed, pinching the bridge of his nose. The word 'Focused' appears."
+    },
+    {
+        "scene": 9,
+        "description": "Multiple jars and colorful flowers. Text 'But' displayed."
+    },
+    {
+        "scene": 10,
+        "description": "Flowers still visible. Text 'Supplements' displayed."
+    },
+    {
+        "scene": 11,
+        "description": "A man rubbing his temples, looking tired. The word 'Depletion' displayed."
+    },
+    {
+        "scene": 12,
+        "description": "The same man continues to look tired, rubbing his temple. The word 'Tired' appears."
+    },
+    {
+        "scene": 13,
+        "description": "A woman in bed, appearing uncomfortable. The word 'Sleep' is shown."
+    },
+    {
+        "scene": 14,
+        "description": "A woman looks frustrated, crumpling papers. The word 'Your' is highlighted."
+    },
+    {
+        "scene": 15,
+        "description": "The same woman continues to crumple papers. The word 'Stress' is displayed."
+    },
+    {
+        "scene": 16,
+        "description": "A man is asleep at his desk with a sticky note labeled 'Help' on his forehead. The text 'Unaddressed' displays."
+    },
+    {
+        "scene": 17,
+        "description": "Preview sinks down to the man's body. Displays the text 'Body'."
+    },
+    {
+        "scene": 18,
+        "description": "A hand holds a spray bottle labeled 'EASE.' The text 'Magnesium' appears."
+    },
+    {
+        "scene": 19,
+        "description": "The spray bottle in focus with circling red lines. The word 'Transdermal' displayed."
+    },
+    {
+        "scene": 20,
+        "description": "3D stomach illustration. Shows text 'Bypasses'."
+    },
+    {
+        "scene": 21,
+        "description": "The circular band moves around the stomach. Text - 'Delivering'."
+    },
+    {
+        "scene": 22,
+        "description": "Effect sparks within the stomach illustration. The word 'Directly' shows."
+    },
+    {
+        "scene": 23,
+        "description": "Percentage ring displays '28% more effective'."
+    },
+    {
+        "scene": 24,
+        "description": "Percentage ring fills up. Text '96%' is shown."
+    },
+    {
+        "scene": 25,
+        "description": "A woman meditates peacefully by the water. The word 'Ease' is displayed."
+    },
+    {
+        "scene": 26,
+        "description": "Continuation of meditation. The text displays 'Stress.'"
+    },
+    {
+        "scene": 27,
+        "description": "A woman sleeps peacefully. Text 'And' is shown."
+    },
+    {
+        "scene": 28,
+        "description": "A man with a satisfied expression. Text 'Every' is shown."
+    },
+    {
+        "scene": 29,
+        "description": "Blue bottles of EASE magnesium spray. Text 'Calm' displayed."
+    },
+    {
+        "scene": 30,
+        "description": "60-day money-back guarantee badge displayed alongside EASE bottles. The phrase 'Shop Now! Magnesium'."
+    },
+    {
+        "scene": 31,
+        "description": "Continues with bottles and guarantee badge. Text 'Our' displayed."
+    },
+    {
+        "scene": 32,
+        "description": "Closing scene with bottles and guarantee. The highlight text reads 'Guarantee'."
+    }
+]

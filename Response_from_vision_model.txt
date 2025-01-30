@@ -1,0 +1,56 @@
+The video begins with serene scenes of a sun-dappled, sprawling tree in a peaceful park, setting a tranquil atmosphere. It introduces the word "Komusō" before focusing on a man speaking thoughtfully to the camera while wearing a white t-shirt and a necklace with a small pendant. The video highlights this pendant, which is then shown to be a small object the man uses to aid his breathing, suggesting a theme of mindfulness or relaxation. Throughout, close-up shots of the man using this breathing aid emphasize its practical application, while the gentle outdoor setting reinforces a message of calm and serenity. The video concludes with the display of a simple logo, punctuating the overall theme of tranquility and mindful living.
+
+
+
+Q1. Can gpt-40 give transcripst ?? 
+-> GPT-4 Vision can analyze video content, but it doesn't directly generate transcripts from videos. Instead, a multi-step process is typically used:
+    1. Extract audio from the video
+    2. Convert audio to text using a speech-to-text service like Whisper AI or any other similar service
+    3. Use GPT-4 to process and refine the transcript
+
+Q2. Type of Music.
+-> Yes , Open Ai's gpt-4-0-audio-preview model. Have written the code for it as well but having some trouble in converting the audio to a gpt-4-0 compatible format. As this model is recent maybe its natural to have this issue. 
+
+Q3. Pricing per frame.
+-> For a request of approx 2 min video (input tokens = 30,000 tokens) and output tokens for about 100 it costs ->
+ input tokens = 7 Cents. 
+ output tokens = 1 Cent.
+ And the total frames i sent was -> 31 frames (size of each frame = 768 X 768)
+ So it takes around 0.22 Cents for 1 frame.
+
+
+Which Google multi-modal can handle all the above taks ? 
+
+
+Q2. Type of Music.
+-> Yes , Open Ai's gpt-4-0-audio-preview model. Have written the code for it as well but having some trouble in converting the audio to a gpt-4-0 compatible format. As this model is recent maybe its natural to have this issue. 
+
+
+Amazon Rekognition ? 
+-> I have seen the Amazon Rekognition reviews on reddit , it seems they charge per 120 seconds of the video processed and there also hint of some hidden services charges along with it. 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Check tken usage and dollar usage for audio input in the requests ?
+-> For that particular request of audio length of 2 mins it too 8 CENTS.
+
+So which AWS service we can use AWS service for video , audio pre-processing for pre-compute before sending the data to open-ai ?
+Lambda function etc .... (Draw a Workflow diagram first)
+-> 
+
+Figure out how to download videos from (i-frame) using the links that we got 
+-> Get the video from the video tag from that particular i-frame.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Scroll Stopper  ->
+
+Hook Category  ->
+
+Concept  ->
+
+style  ->
+
+Avatar  ->
+
+Emotion  ->
